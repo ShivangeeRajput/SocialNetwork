@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SocialNetwork"
+        tools:targetApi="31">
+        <activity
+            android:name=".meetup"
+            android:exported="false" />
+        <activity
+            android:name=".flickr"
+            android:exported="false" />
+        <activity
+            android:name=".blogger"
+            android:exported="false" />
+        <activity
+            android:name=".badoo"
+            android:exported="false" />
+        <activity
+            android:name=".vk"
+            android:exported="false" />
+        <activity
+            android:name=".zili"
+            android:exported="false" />
+        <activity
+            android:name=".xing"
+            android:exported="false" />
+        <activity
+            android:name=".vimeo"
+            android:exported="false" />
+        <activity
+            android:name=".koo"
+            android:exported="false" />
+        <activity
+            android:name=".discord"
+            android:exported="false" />
+        <activity
+            android:name=".netflix"
+            android:exported="false" />
+        <activity
+            android:name=".wattapad"
+            android:exported="false" />
+        <activity
+            android:name=".weverse"
+            android:exported="false" />
+        <activity
+            android:name=".hood"
+            android:exported="false" />
+        <activity
+            android:name=".sharechat"
+            android:exported="false" />
+        <activity
+            android:name=".wechat"
+            android:exported="false" />
+        <activity
+            android:name=".omeggle"
+            android:exported="false" />
+        <activity
+            android:name=".tinder"
+            android:exported="false" />
+        <activity
+            android:name=".telegram"
+            android:exported="false" />
+        <activity
+            android:name=".tumblr"
+            android:exported="false" />
+        <activity
+            android:name=".snapchat"
+            android:exported="false" />
+        <activity
+            android:name=".pinterest"
+            android:exported="false" />
+        <activity
+            android:name=".reddit"
+            android:exported="false" />
+        <activity
+            android:name=".whatsapp"
+            android:exported="false" />
+        <activity
+            android:name=".twitter"
+            android:exported="false" />
+        <activity
+            android:name=".linkedin"
+            android:exported="false" />
+        <activity
+            android:name=".faceb"
+            android:exported="false" />
+        <activity
+            android:name=".instagram"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

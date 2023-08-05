@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/profile"
+        android:title="Privacy Policy"
+
+        />
+
+
+
+
+    <item  android:id="@+id/logout"
+        android:title="Share Us"
+      />
+
+    <item android:title="Communicate">
+        <menu>
+            <item  android:title="Rate Us"
+                android:id="@+id/rateus"
+            />
+
+        </menu>
+
+    </item>
+
+</menu>

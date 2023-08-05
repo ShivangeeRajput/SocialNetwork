@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:src="@drawable/pic" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Social Network"
+        android:textColor="#6495ED "
+        android:textSize="34sp"
+
+        android:textStyle="bold" />
+
+</LinearLayout>
